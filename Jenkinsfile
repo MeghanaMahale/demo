@@ -3,9 +3,9 @@ pipeline {
   stages {
     stage('navigate') {
       steps {
-        sh 'cd /home/ec2-user'
+        sh 'cd /home/ubuntu'
         sh 'mkdir mohit'
-        sh 'touch /home/ec2-user/mohit/abc.txt'
+        sh 'touch /home/ubuntu/mohit/abc.txt'
       }
     }
 
